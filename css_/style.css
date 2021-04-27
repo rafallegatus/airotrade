@@ -840,7 +840,7 @@
      text-align: center;
 }
  .main-menu ul {
-     margin: 0;
+     margin: 40px;
      list-style-type: none;
 }
  .main-menu ul>li {
@@ -981,7 +981,7 @@ width: 24%;
 
 
 .slider_section {
-     padding: 90px 0;
+     padding: 200px 0;
      background: #ececf0;
 }
 
@@ -996,6 +996,7 @@ width: 24%;
      width: 100%;
      padding: 20px 30px 20px 30px;
      background: #ececf0;
+	 position: fixed;
 }
  .logo a {
      font-size: 40px;
@@ -1656,5 +1657,22 @@ transition: all 0.3s ease-in;
  .copyright a:hover {
      color: #ff7e1d ;
 }
+
+.goto_top {
+	
+	background: #033D9A;
+	color: #fff;
+	padding: 20px 20px 10px 20px;
+	position: absolute;
+	right: 20px;
+	
+}
+
+
+
+ .goto_top a:hover {
+     color: #21254B;
+}
+
 /** end footer **/
-/*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- end page css ---------------------------------------------------------------------*/
